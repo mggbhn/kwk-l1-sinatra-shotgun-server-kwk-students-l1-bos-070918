@@ -9,5 +9,8 @@ class App < Sinatra::Base
   get '/name' do
     "My name is Megan."
   end
+  
+  get '/boytime' do
+    "It is now boytime."
 
 end
